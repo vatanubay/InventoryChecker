@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "D:\\ncoding Old_project\\myproject\\app\\build\\intermediates\\res\\merged\\debug\\menu\\select_product.xml",
+        "source": "D:\\ncoding Old_project\\myproject\\app\\src\\main\\res\\menu\\select_product.xml"
+    },
+    {
+        "merged": "D:\\ncoding Old_project\\myproject\\app\\build\\intermediates\\res\\merged\\debug\\menu\\home_admin.xml",
+        "source": "D:\\ncoding Old_project\\myproject\\app\\src\\main\\res\\menu\\home_admin.xml"
+    },
+    {
+        "merged": "D:\\ncoding Old_project\\myproject\\app\\build\\intermediates\\res\\merged\\debug\\menu\\edit.xml",
+        "source": "D:\\ncoding Old_project\\myproject\\app\\src\\main\\res\\menu\\edit.xml"
+    },
+    {
+        "merged": "D:\\ncoding Old_project\\myproject\\app\\build\\intermediates\\res\\merged\\debug\\menu\\zxing.xml",
+        "source": "D:\\ncoding Old_project\\myproject\\app\\src\\main\\res\\menu\\zxing.xml"
+    },
+    {
+        "merged": "D:\\ncoding Old_project\\myproject\\app\\build\\intermediates\\res\\merged\\debug\\menu\\register.xml",
+        "source": "D:\\ncoding Old_project\\myproject\\app\\src\\main\\res\\menu\\register.xml"
+    },
+    {
+        "merged": "D:\\ncoding Old_project\\myproject\\app\\build\\intermediates\\res\\merged\\debug\\menu\\view_product.xml",
+        "source": "D:\\ncoding Old_project\\myproject\\app\\src\\main\\res\\menu\\view_product.xml"
+    },
+    {
+        "merged": "D:\\ncoding Old_project\\myproject\\app\\build\\intermediates\\res\\merged\\debug\\menu\\logo.xml",
+        "source": "D:\\ncoding Old_project\\myproject\\app\\src\\main\\res\\menu\\logo.xml"
+    }
+]
