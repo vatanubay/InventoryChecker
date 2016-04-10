@@ -19,8 +19,8 @@ public class CRUD {
 
     public long createUser(String user, String pass) {
         ContentValues values = new ContentValues();
-        values.put("username", user);
-        values.put("password", pass);
+        values.put("User_username", user);
+        values.put("User_password", pass);
 
         return db.insert(connect_db.DB_TABLE_USER, null, values);
     }

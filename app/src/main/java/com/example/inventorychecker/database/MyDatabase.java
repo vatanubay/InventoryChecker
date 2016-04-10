@@ -45,7 +45,7 @@ public class MyDatabase extends SQLiteOpenHelper {
 
     //    ------------------------------------------------------------------------------------------------------------------------- //
 
-    private static String DB_TABLE_EXPORT_FILE = "Export file";
+    private static String DB_TABLE_EXPORT_FILE = "Export_file";
     public static String DB_Ex_ID = "Ep_id";
     public static String DB_Ex_NAME = "Ep_name";
     public static String DB_Ex_DATE = "Ep_date";
@@ -67,10 +67,12 @@ public class MyDatabase extends SQLiteOpenHelper {
 
     //    ------------------------------------------------------------------------------------------------------------------------- //
 
-    private static String DB_TABLE_QR_CODE = "QR code";
+    private static String DB_TABLE_QR_CODE = "QR_code";
     public static String DB_Qr_code_ID = "Qr_id";
+    public static String DB_Qr_code_TYPE = "Qr_type";
 
-    String SQL_TABLE_QR_CODE = "CREATE TABLE " + DB_TABLE_QR_CODE + "(" + DB_Qr_code_ID + " integer primary key autoincrement, ";
+    String SQL_TABLE_QR_CODE = "CREATE TABLE " + DB_TABLE_QR_CODE + "(" + DB_Qr_code_ID + " integer primary key autoincrement, "+
+            DB_Qr_code_TYPE + " Text(255))";
 
     //    ------------------------------------------------------------------------------------------------------------------------- //
 
@@ -80,33 +82,20 @@ public class MyDatabase extends SQLiteOpenHelper {
     public static String DB_PRO_COLOR = "Pro_color";
     public static String DB_PRO_TYPE = "Pro_type";
     public static String DB_PRO_PRICE = "Pro_price";
+    public static String DB_PRO_DATE = "Pro_date";
 
     String SQL_TABLE_PRODUCT = "CREATE TABLE " + DB_TABLE_PRODUCT + "(" + DB_PRO_ID + " integer primary key autoincrement, " +
             DB_PRO_NAME + " text(250), " +
             DB_PRO_COLOR + " text(250), " +
             DB_PRO_TYPE + " text(250), " +
-            DB_PRO_PRICE + " integer(50))";
+            DB_PRO_DATE + " text(255), " +
+    DB_PRO_PRICE + " integer(50))";
 
     //    ------------------------------------------------------------------------------------------------------------------------- //
 
-    public static String DB_TABLE_HISTORY = "History";
-    public static String DB_HIS_PRO_ID = "Pro_id";
-    public static String DB_HIS_PRO_NAME = "Pro_name";
-    public static String DB_HIS_PRO_COLOR = "Pro_color";
-    public static String DB_HIS_PRO_TYPE = "Pro_type";
-    public static String DB_HIS_PRO_PRICE = "Pro_price";
-    public static String DB_HIS_USER_NAME = "User_name";
-    public static String DB_HIS_DATE = "Date";
 
-    String SQL_TABLE_HISTORY = "CREATE TABLE " + DB_TABLE_HISTORY + "(" + DB_HIS_PRO_ID + " integer primary key autoincrement, " +
-            DB_HIS_PRO_NAME + " text(250), " +
-            DB_HIS_PRO_COLOR + " text(250), " +
-            DB_HIS_PRO_TYPE + " text(250), " +
-            DB_HIS_PRO_PRICE + " integer(50)," +
-            DB_HIS_USER_NAME + " text(250), " +
-            DB_HIS_DATE + " date(15))" ;
 
-    //    ------------------------------------------------------------------------------------------------------------------------- //
+
     public MyDatabase(Context context) {
         super(context, DB_NAME, null, db_version); //ระบุ ชื่อ และเวอร์ชั นของฐานข้อมูล
     }
@@ -119,7 +108,6 @@ public class MyDatabase extends SQLiteOpenHelper {
         db.execSQL(SQL_TABLE_EXPORT_FILE);
         db.execSQL(SQL_TABLE_REPORT);
         db.execSQL(SQL_TABLE_QR_CODE);
-        db.execSQL(SQL_TABLE_HISTORY);
         //db.execSQL(SQL_TABLE_...);
     }
 
@@ -131,7 +119,6 @@ public class MyDatabase extends SQLiteOpenHelper {
         db.execSQL("DROP TABLE IF EXISTS " + DB_TABLE_PRODUCT);
         db.execSQL("DROP TABLE IF EXISTS " + DB_TABLE_QR_CODE);
         db.execSQL("DROP TABLE IF EXISTS " + DB_TABLE_REPORT);
-        db.execSQL("DROP TABLE IF EXISTS " + DB_TABLE_HISTORY);
         onCreate(db);
     }
 

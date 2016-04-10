@@ -31,23 +31,12 @@
         </activity>
         <activity android:name="com.example.inventorychecker.activity.LoginActivity" />
         <activity android:name="com.example.inventorychecker.activity.HomeActivity" />
-        <activity android:name="com.example.inventorychecker.activity.ProductlistActivity" />
-        <activity android:name="com.example.inventorychecker.activity.ScanQRCodeActivity" />
-        <activity
-            android:name="com.example.inventorychecker.activity.EditActivity"
-            android:label="@string/title_activity_edit" />
         <activity
             android:name="com.example.inventorychecker.activity.RegisterActivity"
             android:label="@string/title_activity_register" />
         <activity
             android:name="com.example.inventorychecker.activity.HomeAdminActivity"
             android:label="@string/title_activity_home_admin" />
-        <activity
-            android:name="com.example.inventorychecker.activity.ViewProductActivity"
-            android:label="@string/title_activity_view_product" />
-        <activity
-            android:name="com.example.inventorychecker.activity.SelectProductActivity"
-            android:label="@string/title_activity_select_product" />
         <activity android:name="com.example.inventorychecker.activity.ScannerActivity" />
         <activity android:name="com.example.inventorychecker.activity.Management" />
         <activity android:name="com.example.inventorychecker.activity.Action_scan" />

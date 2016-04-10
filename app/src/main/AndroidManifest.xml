@@ -4,11 +4,11 @@
     android:versionCode="1"
     android:versionName="1.0">
 
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.CAMERA"/>
-    <uses-feature android:name="android.hardware.camera2"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
 
+    <uses-feature android:name="android.hardware.camera2" />
 
     <application
         android:allowBackup="true"
@@ -27,27 +27,18 @@
         </activity>
         <activity android:name=".LoginActivity" />
         <activity android:name=".HomeActivity" />
-        <activity android:name=".ProductlistActivity" />
-        <activity android:name=".ScanQRCodeActivity" />
-        <activity
-            android:name=".EditActivity"
-            android:label="@string/title_activity_edit" />
         <activity
             android:name=".RegisterActivity"
             android:label="@string/title_activity_register" />
         <activity
             android:name=".HomeAdminActivity"
             android:label="@string/title_activity_home_admin" />
-        <activity
-            android:name=".ViewProductActivity"
-            android:label="@string/title_activity_view_product" />
-        <activity
-            android:name=".SelectProductActivity"
-            android:label="@string/title_activity_select_product" />
         <activity android:name=".ScannerActivity" />
         <activity android:name=".Management" />
         <activity android:name=".Action_scan" />
-        <activity android:name=".StoreManagemant"></activity>
+        <activity android:name=".StoreManagemant" />
+        <activity android:name=".HistoryActivity" />
+        <activity android:name=".ShowProductActivity"></activity>
     </application>
 
 </manifest>

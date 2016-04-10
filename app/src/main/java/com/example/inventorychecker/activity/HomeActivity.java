@@ -8,6 +8,8 @@ import android.view.View.OnClickListener;
 import android.widget.ImageView;
 
 public class HomeActivity extends AppCompatActivity {
+
+	public static final int REQUEST_QR_SCAN = 0;
   
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -17,7 +19,7 @@ public class HomeActivity extends AppCompatActivity {
 	    imageView.setOnClickListener(new OnClickListener() { //กำหนดการกะทำของ  imageview 
 	            @Override
 	            public void onClick(View v) {
-	                Intent intent = new Intent(getApplicationContext(), ProductlistActivity.class);
+	                Intent intent = new Intent(getApplicationContext(), StoreManagemant.class);
 	                startActivity(intent);
 		            }
 	        });
@@ -25,8 +27,9 @@ public class HomeActivity extends AppCompatActivity {
 	    imageView1.setOnClickListener(new OnClickListener() {
 	            @Override
 	            public void onClick(View v) {
-	                Intent intent = new Intent(getApplicationContext(), ScanQRCodeActivity.class);
-	                startActivity(intent);
+					Intent intent = new Intent(getApplicationContext()
+							, ScannerActivity.class);
+					startActivityForResult(intent, REQUEST_QR_SCAN);
 
 		            }
 	        });

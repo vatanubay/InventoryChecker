@@ -50,7 +50,7 @@ public class ScannerActivity extends AppCompatActivity implements ZXingScannerVi
         Toast.makeText(getApplicationContext(), " "+result.getText(), Toast.LENGTH_LONG).show();
 
         // If you would like to resume scanning, call this method below:
-        mScannerView.resumeCameraPreview(this);
+//        mScannerView.resumeCameraPreview(this);
         // query database
 
 
@@ -59,6 +59,8 @@ public class ScannerActivity extends AppCompatActivity implements ZXingScannerVi
         intent.putExtra(Constant.ScannerResultKey, 1);
         startActivity(intent);
         finish();
+        mScannerView.stopCameraPreview();
+        mScannerView.onFinishTemporaryDetach();
     }
 
 }

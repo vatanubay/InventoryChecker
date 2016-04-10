@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:2:1-53:12
+ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:2:1-42:12
 	xmlns:android
 		ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:2:11-69
 	package
@@ -32,7 +32,7 @@ ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:10:
 	android:name
 		ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:10:19-58
 application
-ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:13:5-51:19
+ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:13:5-40:19
 MERGED from [com.android.support:support-v4:23.2.0] D:\ncoding Old_project\myproject\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:appcompat-v7:23.2.0] D:\ncoding Old_project\myproject\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.0\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-v4:23.2.0] D:\ncoding Old_project\myproject\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
@@ -78,60 +78,34 @@ activity#com.example.inventorychecker.activity.HomeActivity
 ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:29:9-50
 	android:name
 		ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:29:19-47
-activity#com.example.inventorychecker.activity.ProductlistActivity
-ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:30:9-57
-	android:name
-		ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:30:19-54
-activity#com.example.inventorychecker.activity.ScanQRCodeActivity
-ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:31:9-56
-	android:name
-		ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:31:19-53
-activity#com.example.inventorychecker.activity.EditActivity
-ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:32:9-34:59
-	android:label
-		ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:34:13-56
-	android:name
-		ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:33:13-41
 activity#com.example.inventorychecker.activity.RegisterActivity
-ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:35:9-37:63
+ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:30:9-32:63
 	android:label
-		ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:37:13-60
+		ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:32:13-60
 	android:name
-		ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:36:13-45
+		ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:31:13-45
 activity#com.example.inventorychecker.activity.HomeAdminActivity
-ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:38:9-40:65
+ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:33:9-35:65
 	android:label
-		ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:40:13-62
+		ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:35:13-62
 	android:name
-		ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:39:13-46
-activity#com.example.inventorychecker.activity.ViewProductActivity
-ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:41:9-43:67
-	android:label
-		ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:43:13-64
-	android:name
-		ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:42:13-48
-activity#com.example.inventorychecker.activity.SelectProductActivity
-ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:44:9-46:69
-	android:label
-		ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:46:13-66
-	android:name
-		ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:45:13-50
+		ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:34:13-46
 activity#com.example.inventorychecker.activity.ScannerActivity
-ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:47:9-53
+ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:36:9-53
 	android:name
-		ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:47:19-50
+		ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:36:19-50
 activity#com.example.inventorychecker.activity.Management
-ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:48:9-48
+ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:37:9-48
 	android:name
-		ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:48:19-45
+		ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:37:19-45
 activity#com.example.inventorychecker.activity.Action_scan
-ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:49:9-49
+ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:38:9-49
 	android:name
-		ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:49:19-46
+		ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:38:19-46
 activity#com.example.inventorychecker.activity.StoreManagemant
-ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:50:9-62
+ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:39:9-62
 	android:name
-		ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:50:19-50
+		ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:39:19-50
 uses-sdk
 INJECTED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:support-v4:23.2.0] D:\ncoding Old_project\myproject\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:20:5-43
