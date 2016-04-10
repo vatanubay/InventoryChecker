@@ -10,6 +10,7 @@ import android.util.Log;
 import android.view.Window;
 
 import com.example.inventorychecker.Utils.Constant;
+import com.example.inventorychecker.Utils.CopyDatabase;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -28,14 +29,7 @@ public class LogoActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_logo);
-        File file = new File(Environment.getExternalStorageDirectory(), Constant.FileNameDataBase);
-        if (!file.exists()) {
-            try {
-                copyDatabase();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        }
+        CopyDatabase.init(getApplicationContext());
         handler = new Handler();
         runnable = new Runnable() {
             @Override
@@ -62,37 +56,6 @@ public class LogoActivity extends AppCompatActivity {
         time = delay_time - (System.currentTimeMillis() - time);
     }
 
-    public void copyDatabase() throws IOException {
-        File file = new File(Environment.getExternalStorageDirectory(),Constant.FileNameDataBase);
-
-        InputStream in = null;
-        OutputStream out = null;
-        try {
-            in = getAssets().open(Constant.FileNameDataBase); //.I'm in a service, so I don't need context
-            out = new FileOutputStream(file);
-
-            int count = 0;
-            byte[] buffer = new byte[1024 * 2];
-            while ((count = in.read(buffer)) != -1) {
-                out.write(buffer, 0, count);
-                out.flush();
-            }
-        } catch (IOException err) {
-
-        } finally {
-            if (in != null)
-                try {
-                    in.close();
-                } catch (IOException ignore) {
-                }
-            if (out != null)
-                try {
-                    out.close();
-                } catch (IOException ignore) {
-                }
-        }
-
-    }
 }
 
         
