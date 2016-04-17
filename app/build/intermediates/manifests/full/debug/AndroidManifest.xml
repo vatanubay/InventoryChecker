@@ -41,6 +41,8 @@
         <activity android:name="com.example.inventorychecker.activity.Management" />
         <activity android:name="com.example.inventorychecker.activity.Action_scan" />
         <activity android:name="com.example.inventorychecker.activity.StoreManagemant" />
+        <activity android:name="com.example.inventorychecker.activity.HistoryActivity" />
+        <activity android:name="com.example.inventorychecker.activity.ShowProductActivity" />
     </application>
 
 </manifest>

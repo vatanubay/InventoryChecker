@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:2:1-42:12
+ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:2:1-44:12
 	xmlns:android
 		ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:2:11-69
 	package
@@ -16,23 +16,23 @@ ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:2:1
 		INJECTED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml
 		INJECTED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:7:5-79
+ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:7:5-80
 	android:name
 		ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:7:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:8:5-80
+ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:8:5-81
 	android:name
 		ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:8:22-78
 uses-permission#android.permission.CAMERA
-ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:9:5-64
+ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:9:5-65
 	android:name
 		ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:9:22-62
 uses-feature#android.hardware.camera2
-ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:10:5-60
+ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:11:5-61
 	android:name
-		ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:10:19-58
+		ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:11:19-58
 application
-ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:13:5-40:19
+ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:13:5-42:19
 MERGED from [com.android.support:support-v4:23.2.0] D:\ncoding Old_project\myproject\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:appcompat-v7:23.2.0] D:\ncoding Old_project\myproject\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.0\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-v4:23.2.0] D:\ncoding Old_project\myproject\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
@@ -103,9 +103,17 @@ ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:38:
 	android:name
 		ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:38:19-46
 activity#com.example.inventorychecker.activity.StoreManagemant
-ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:39:9-62
+ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:39:9-53
 	android:name
 		ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:39:19-50
+activity#com.example.inventorychecker.activity.HistoryActivity
+ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:40:9-53
+	android:name
+		ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:40:19-50
+activity#com.example.inventorychecker.activity.ShowProductActivity
+ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:41:9-66
+	android:name
+		ADDED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml:41:19-54
 uses-sdk
 INJECTED from D:\ncoding Old_project\myproject\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:support-v4:23.2.0] D:\ncoding Old_project\myproject\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:20:5-43
