@@ -6,12 +6,14 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.example.inventorychecker.Utils.Constant;
 
 public class Management extends AppCompatActivity {
 
     private ImageView imgProduct;
+    private TextView contentProduct;
     private Button btn_back_scan;
     private Button btn_add;
     private String txtResultScanner;
@@ -23,6 +25,7 @@ public class Management extends AppCompatActivity {
         setContentView(R.layout.activity_management);
 
         imgProduct = (ImageView) findViewById(R.id.imgProduct);
+        contentProduct = (TextView) findViewById(R.id.contentProduct);
         btn_back_scan = (Button) findViewById(R.id.btn_back_scan);
         btn_add = (Button) findViewById(R.id.btn_add);
 
@@ -34,6 +37,7 @@ public class Management extends AppCompatActivity {
 
         if(idResultScanner == 1){
             imgProduct.setBackgroundResource(R.drawable.gosen_gn_505_nylon_480_bath);
+            contentProduct.setText(txtResultScanner);
         }
 
         btn_add.setOnClickListener(new View.OnClickListener() {

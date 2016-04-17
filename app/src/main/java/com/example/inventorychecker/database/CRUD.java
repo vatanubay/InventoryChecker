@@ -7,6 +7,8 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
+import com.example.inventorychecker.model.ProductModel;
+
 public class CRUD {
 
     MyDatabase connect_db;
@@ -46,7 +48,33 @@ public class CRUD {
         }
 
         return data;
+    }
 
+    public ArrayList<ProductModel> selectAllProduct() {
+        ArrayList<ProductModel> data = new ArrayList<>();
+
+        String sql = "SELECT * FROM " + MyDatabase.DB_TABLE_PRODUCT;
+        Cursor cursor = db.rawQuery(sql, null);
+        cursor.moveToFirst();
+        if (cursor.getCount() != 0) {
+            do {
+                ProductModel productModel = new ProductModel();
+                productModel.setId(cursor.getInt(cursor.getColumnIndex(MyDatabase.DB_PRO_ID)));
+                productModel.setName(cursor.getString(cursor.getColumnIndex(MyDatabase.DB_PRO_NAME)));
+                productModel.setType(cursor.getString(cursor.getColumnIndex(MyDatabase.DB_PRO_TYPE)));
+                productModel.setColor(cursor.getString(cursor.getColumnIndex(MyDatabase.DB_PRO_COLOR)));
+                productModel.setPrice(cursor.getInt(cursor.getColumnIndex(MyDatabase.DB_PRO_PRICE)));
+
+                data.add(productModel);
+
+            } while (cursor.moveToNext());
+        }
+
+        return data;
+    }
+
+    public long addProduct(int amount, int id){
+        return 0;
     }
 }
 

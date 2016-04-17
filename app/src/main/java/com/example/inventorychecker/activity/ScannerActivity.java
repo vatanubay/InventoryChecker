@@ -53,7 +53,6 @@ public class ScannerActivity extends AppCompatActivity implements ZXingScannerVi
 //        mScannerView.resumeCameraPreview(this);
         // query database
 
-
         Intent intent = new Intent(ScannerActivity.this, Management.class);
         intent.putExtra(Constant.ScannerResultText, result.getText());
         intent.putExtra(Constant.ScannerResultKey, 1);

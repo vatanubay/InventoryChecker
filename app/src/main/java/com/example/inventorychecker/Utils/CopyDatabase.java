@@ -19,11 +19,12 @@ public class CopyDatabase {
     public static void init(Context context){
         String DB_PATH = context.getFilesDir().getAbsolutePath()+"/"; //edited to databases
         File file = new File(DB_PATH+DB_NAME);
-        if(!file.exists()) {
-            Toast.makeText(context, "No", Toast.LENGTH_LONG).show();
+        if(!file.exists())
+//        {
+//            Toast.makeText(context, "No", Toast.LENGTH_LONG).show();
             copyDataBase(context, DB_PATH);
-        }else
-            Toast.makeText(context, "have", Toast.LENGTH_LONG).show();
+//        }else
+//            Toast.makeText(context, "have", Toast.LENGTH_LONG).show();
     }
 
     private static void copyDataBase(Context context, String path) {
