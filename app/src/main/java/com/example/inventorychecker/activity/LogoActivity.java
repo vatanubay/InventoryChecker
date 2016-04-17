@@ -1,22 +1,14 @@
 package com.example.inventorychecker.activity;
 
 import android.content.Intent;
-import android.content.res.AssetManager;
 import android.os.Bundle;
-import android.os.Environment;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.Window;
 
-import com.example.inventorychecker.Utils.Constant;
 import com.example.inventorychecker.Utils.CopyDatabase;
 
-import java.io.File;
-import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
 
 public class LogoActivity extends AppCompatActivity {
     Handler handler;
@@ -29,7 +21,11 @@ public class LogoActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_logo);
-        CopyDatabase.init(getApplicationContext());
+        try {
+            CopyDatabase.init(getApplicationContext());
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
         handler = new Handler();
         runnable = new Runnable() {
             @Override

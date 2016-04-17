@@ -6,7 +6,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 public class MyDatabase extends SQLiteOpenHelper {
 
-    private final static String DB_NAME = "Inventory_Checker"; //สร้างชื่อฐานข้อมูล
+    private final static String DB_NAME = "Inventory_Checker.db"; //สร้างชื่อฐานข้อมูล
     private static int db_version = 1; //เวอร์ชั่นฐานข้อมูล
 
 
@@ -19,7 +19,7 @@ public class MyDatabase extends SQLiteOpenHelper {
     public static String DB_User_USERNAME = "User_username";
     public static String DB_User_PASSWORD = "User_password";
 
-    String SQL_TABLE_User = "CREATE TABLE " + DB_TABLE_USER + "(" + DB_User_ID + " integer primary key autoincrement, " +
+    String SQL_TABLE_User = "CREATE TABLE IF NOT EXISTS " + DB_TABLE_USER + "(" + DB_User_ID + " integer primary key autoincrement, " +
             DB_User_NAME + " text(30), " +
             DB_User_SURE + " text(30), " +
             DB_User_TEL + " text(30), " +
@@ -36,7 +36,7 @@ public class MyDatabase extends SQLiteOpenHelper {
     public static String DB_Admin_USERNAME = "User_username";
     public static String DB_Admin_PASSWORD = "User_password";
 
-    String SQL_TABLE_ADMIN = "CREATE TABLE " + DB_TABLE_ADMIN + "(" + DB_Admin_ID + " integer primary key autoincrement, " +
+    String SQL_TABLE_ADMIN = "CREATE TABLE IF NOT EXISTS " + DB_TABLE_ADMIN + "(" + DB_Admin_ID + " integer primary key autoincrement, " +
             DB_Admin_NAME + " text(30), " +
             DB_Admin_SURE + " text(30), " +
             DB_Admin_TEL + " text(30), " +
@@ -50,7 +50,7 @@ public class MyDatabase extends SQLiteOpenHelper {
     public static String DB_Ex_NAME = "Ep_name";
     public static String DB_Ex_DATE = "Ep_date";
 
-    String SQL_TABLE_EXPORT_FILE = "CREATE TABLE " + DB_TABLE_EXPORT_FILE + "(" + DB_Ex_ID + " integer primary key autoincrement, " +
+    String SQL_TABLE_EXPORT_FILE = "CREATE TABLE IF NOT EXISTS " + DB_TABLE_EXPORT_FILE + "(" + DB_Ex_ID + " integer primary key autoincrement, " +
             DB_Ex_NAME + " text(30), " +
             DB_Ex_DATE + " text(250))";
 
@@ -61,7 +61,7 @@ public class MyDatabase extends SQLiteOpenHelper {
     public static String DB_Re_NAME = "Re_name";
     public static String DB_Re_DATE = "Re_date";
 
-    String SQL_TABLE_REPORT = "CREATE TABLE " + DB_TABLE_REPORT + "(" + DB_Re_ID + " integer primary key autoincrement, " +
+    String SQL_TABLE_REPORT = "CREATE TABLE IF NOT EXISTS " + DB_TABLE_REPORT + "(" + DB_Re_ID + " integer primary key autoincrement, " +
             DB_Re_NAME + " text(30), " +
             DB_Re_DATE + " text(250))";
 
@@ -71,7 +71,7 @@ public class MyDatabase extends SQLiteOpenHelper {
     public static String DB_Qr_code_ID = "Qr_id";
     public static String DB_Qr_code_TYPE = "Qr_type";
 
-    String SQL_TABLE_QR_CODE = "CREATE TABLE " + DB_TABLE_QR_CODE + "(" + DB_Qr_code_ID + " integer primary key autoincrement, "+
+    String SQL_TABLE_QR_CODE = "CREATE TABLE IF NOT EXISTS " + DB_TABLE_QR_CODE + "(" + DB_Qr_code_ID + " integer primary key autoincrement, "+
             DB_Qr_code_TYPE + " Text(255))";
 
     //    ------------------------------------------------------------------------------------------------------------------------- //
@@ -84,7 +84,7 @@ public class MyDatabase extends SQLiteOpenHelper {
     public static String DB_PRO_PRICE = "Pro_price";
     public static String DB_PRO_DATE = "Pro_date";
 
-    String SQL_TABLE_PRODUCT = "CREATE TABLE " + DB_TABLE_PRODUCT + "(" + DB_PRO_ID + " integer primary key autoincrement, " +
+    String SQL_TABLE_PRODUCT = "CREATE TABLE IF NOT EXISTS " + DB_TABLE_PRODUCT + "(" + DB_PRO_ID + " integer primary key autoincrement, " +
             DB_PRO_NAME + " text(250), " +
             DB_PRO_COLOR + " text(250), " +
             DB_PRO_TYPE + " text(250), " +

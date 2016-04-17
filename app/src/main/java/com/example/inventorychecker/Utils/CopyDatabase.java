@@ -1,7 +1,6 @@
 package com.example.inventorychecker.Utils;
 
 import android.content.Context;
-import android.widget.Toast;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -16,18 +15,24 @@ public class CopyDatabase {
 
     private static String DB_NAME = "Inventory_Checker.db";
 
-    public static void init(Context context){
-        String DB_PATH = context.getFilesDir().getAbsolutePath()+"/"; //edited to databases
-        File file = new File(DB_PATH+DB_NAME);
-        if(!file.exists())
+    public static void init(Context context) throws IOException {
+        String DB_PATH = "/data/data/"+context.getPackageName()+"/databases/"; //edited to databases
+        File file = context.getDatabasePath(DB_NAME);
+        if(!file.exists()){
+            File path = new File(DB_PATH);
+            path.mkdirs();
+            file.createNewFile();
+            copyDataBase(context, file);
+        }
 //        {
 //            Toast.makeText(context, "No", Toast.LENGTH_LONG).show();
-            copyDataBase(context, DB_PATH);
+//            new MyDatabase(context);
+//            copyDataBase(context, DB_PATH);
 //        }else
 //            Toast.makeText(context, "have", Toast.LENGTH_LONG).show();
     }
 
-    private static void copyDataBase(Context context, String path) {
+    private static void copyDataBase(Context context, File file) {
         byte[] buffer = new byte[1024];
         OutputStream myOutput = null;
         int length;
@@ -37,7 +42,7 @@ public class CopyDatabase {
             myInput = context.getAssets().open(DB_NAME);
             // transfer bytes from the inputfile to the
             // outputfile
-            myOutput = new FileOutputStream(path+"/"+DB_NAME);
+            myOutput = new FileOutputStream(file);
             while ((length = myInput.read(buffer)) > 0) {
                 myOutput.write(buffer, 0, length);
             }

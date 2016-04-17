@@ -7,6 +7,8 @@ import android.util.Log;
 import android.widget.Toast;
 
 import com.example.inventorychecker.Utils.Constant;
+import com.example.inventorychecker.database.CRUD;
+import com.example.inventorychecker.model.ProductModel;
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.Result;
 
@@ -19,6 +21,8 @@ public class ScannerActivity extends AppCompatActivity implements ZXingScannerVi
 
     private ZXingScannerView mScannerView;
     private List<BarcodeFormat> barcodeFormats = new ArrayList<>();
+    private ArrayList<ProductModel> product;
+    private CRUD crud;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +31,14 @@ public class ScannerActivity extends AppCompatActivity implements ZXingScannerVi
         barcodeFormats.add(BarcodeFormat.QR_CODE);
         mScannerView.setFormats(barcodeFormats);
         setContentView(mScannerView);
+        init();
+    }
+
+    private void init(){
+        crud = new CRUD(ScannerActivity.this);
+        product = crud.selectAllProduct();
+        if(product == null)
+            product = new ArrayList<>();
     }
 
     @Override
@@ -53,13 +65,33 @@ public class ScannerActivity extends AppCompatActivity implements ZXingScannerVi
 //        mScannerView.resumeCameraPreview(this);
         // query database
 
-        Intent intent = new Intent(ScannerActivity.this, Management.class);
-        intent.putExtra(Constant.ScannerResultText, result.getText());
-        intent.putExtra(Constant.ScannerResultKey, 1);
-        startActivity(intent);
-        finish();
+        boolean validProduct = false;
+        String msg = "";
+        if(product.size() != 0){
+            for(ProductModel productModel : product){
+                if(result.getText().equals(String.valueOf(productModel.getId()))){
+                    validProduct = true;
+                    break;
+                }
+            }
+
+            if(validProduct){
+                Intent intent = new Intent(ScannerActivity.this, Management.class);
+                intent.putExtra(Constant.ScannerResultText, result.getText());
+                intent.putExtra(Constant.ScannerResultKey, 1);
+                startActivity(intent);
+                finish();
+            }else
+                msg = "data not match";
+        }else
+        msg = "No data";
+
+        mScannerView.stopCamera();
         mScannerView.stopCameraPreview();
-        mScannerView.onFinishTemporaryDetach();
+        if(!validProduct){
+            Toast.makeText(getApplicationContext(), msg, Toast.LENGTH_SHORT).show();
+            finish();
+        }
     }
 
 }
