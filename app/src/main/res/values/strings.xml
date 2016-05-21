@@ -16,4 +16,11 @@
     <string name="title_activity_view_product">ViewProductActivity</string>
     <string name="title_activity_select_product">SelectProductActivity</string>
 
+    <string-array name="mycolors">
+        <item>@color/holo_blue_dark</item>
+        <item>@color/holo_yellow_dark</item>
+        <item>@color/holo_green_dark</item>
+        <item>@color/holo_purple_dark</item>
+        <item>@color/holo_red_dark</item>
+    </string-array>
 </resources>

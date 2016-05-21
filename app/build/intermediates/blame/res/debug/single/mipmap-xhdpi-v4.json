@@ -1,10 +1,6 @@
 [
     {
-        "merged": "C:\\Users\\w.issarapanit\\Desktop\\project_meen\\InventoryChecker\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\inventory01.png",
-        "source": "C:\\Users\\w.issarapanit\\Desktop\\project_meen\\InventoryChecker\\app\\src\\main\\res\\mipmap-xhdpi\\inventory01.png"
-    },
-    {
-        "merged": "D:\\ncoding Old_project\\myproject\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\inventory01.png",
-        "source": "D:\\ncoding Old_project\\myproject\\app\\src\\main\\res\\mipmap-xhdpi\\inventory01.png"
+        "merged": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\inventory01.png",
+        "source": "D:\\ncoding Old_project\\InventoryChecker\\app\\src\\main\\res\\mipmap-xhdpi\\inventory01.png"
     }
 ]
