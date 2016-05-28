@@ -7,7 +7,7 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
-import com.example.inventorychecker.model.ProductModel;
+import com.example.inventorychecker.manager.model.ProductModel;
 
 public class CRUD {
 
@@ -49,7 +49,7 @@ public class CRUD {
 
         return data;
     }
-
+/*
     public ArrayList<ProductModel> selectAllProduct() {
         ArrayList<ProductModel> data = new ArrayList<>();
 
@@ -72,7 +72,7 @@ public class CRUD {
 
         return data;
     }
-
+*/
     public long addProduct(int amount, int id){
         return 0;
     }

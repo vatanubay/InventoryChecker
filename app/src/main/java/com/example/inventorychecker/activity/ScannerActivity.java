@@ -4,18 +4,16 @@ import android.content.Intent;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
-import android.widget.Toast;
 
 import com.example.inventorychecker.Utils.Constant;
-import com.example.inventorychecker.database.CRUD;
 import com.example.inventorychecker.manager.RestServiceManager;
 import com.example.inventorychecker.manager.dao.ScannerProductDao;
 import com.example.inventorychecker.manager.service.ScannerProductService;
-import com.example.inventorychecker.model.ProductModel;
 import com.example.inventorychecker.view.CircularProgressDialog;
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.Result;
+
+import org.parceler.Parcels;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -29,8 +27,6 @@ public class ScannerActivity extends AppCompatActivity implements ZXingScannerVi
 
     private ZXingScannerView mScannerView;
     private List<BarcodeFormat> barcodeFormats = new ArrayList<>();
-    private ArrayList<ProductModel> product;
-//    private CRUD crud;
     private CircularProgressDialog dialog;
 
     @Override
@@ -44,10 +40,6 @@ public class ScannerActivity extends AppCompatActivity implements ZXingScannerVi
     }
 
     private void init(){
-//        crud = new CRUD(ScannerActivity.this);
-//        product = crud.selectAllProduct();
-//        if(product == null)
-//            product = new ArrayList<>();
         dialog = new CircularProgressDialog(ScannerActivity.this, R.style.CircleProgressDialogStyle);
     }
 
@@ -80,14 +72,14 @@ public class ScannerActivity extends AppCompatActivity implements ZXingScannerVi
                     if(dao != null){
                         dialog.dismiss();
                         Intent intent = new Intent(ScannerActivity.this, Management.class);
-                        intent.putExtra(Constant.ScannerResultText, dao.getTaxId());
-                        intent.putExtra(Constant.ScannerResultKey, 1);
+                        intent.putExtra(Constant.ScannerResultText, Parcels.wrap(dao));
                         startActivity(intent);
                         finish();
                     }
                 }else{
                     dialog.dismiss();
                     Snackbar.make(mScannerView, "Failed", Snackbar.LENGTH_LONG).show();
+                    onBackPressed();
                 }
             }
 
@@ -95,6 +87,7 @@ public class ScannerActivity extends AppCompatActivity implements ZXingScannerVi
             public void onFailure(Call<ScannerProductDao> call, Throwable t) {
                 dialog.dismiss();
                 Snackbar.make(mScannerView, "Failed : " + t.getMessage(), Snackbar.LENGTH_LONG).show();
+                onBackPressed();
             }
         });
     }
