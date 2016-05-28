@@ -17,7 +17,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
  * Created by Picked on 2/5/16.
  */
 public class RestServiceManager {
-    public static String BASE_URL = BaseConfig.BaseUrl;
+    public static String BASE_URL = BaseConfig.profixUrl();
 
 
     public static <T> T create(final Class<T> service) {

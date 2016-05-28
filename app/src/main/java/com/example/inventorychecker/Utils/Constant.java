@@ -5,6 +5,9 @@ package com.example.inventorychecker.Utils;
  */
 public class Constant {
 
+    // ถ้าเป็น true คือ server
+    // ถ้าเป็น false คือ local
+    public static boolean isProduction = true;
     // key intent
     public static String ScannerResultText = "resultText";
     public static String ScannerResultKey = "resultKey";
