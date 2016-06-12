@@ -21,15 +21,16 @@
 
             <ImageView
                 android:id="@+id/imageView1"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
                 android:src="@drawable/custom_button_home1" />
 
             <TextView
                 android:id="@+id/textView1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Scan QR Code" />
+                android:text="Scan QR Code"
+                android:textSize="20sp"/>
 
         </LinearLayout>
 
@@ -42,15 +43,16 @@
 
             <ImageView
                 android:id="@+id/imageView2"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
                 android:src="@drawable/custom_button_home2" />
 
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Product List" />
+                android:text="Product List"
+                android:textSize="20sp"/>
 
         </LinearLayout>
 
@@ -72,15 +74,16 @@
 
             <ImageView
                 android:id="@+id/imageView3"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
                 android:src="@drawable/custom_button_home3" />
 
             <TextView
                 android:id="@+id/textView3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="User Guide" />
+                android:text="User Guide"
+                android:textSize="20sp"/>
 
         </LinearLayout>
 
@@ -93,15 +96,16 @@
 
             <ImageView
                 android:id="@+id/imageView4"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
                 android:src="@drawable/custom_button_home4" />
 
             <TextView
                 android:id="@+id/textView4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Export File" />
+                android:text="Export File"
+                android:textSize="20sp"/>
 
         </LinearLayout>
 

@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\ncoding Old_project\InventoryChecker\app\src\main\AndroidManifest.xml:2:1-45:12
+ADDED from D:\ncoding Old_project\InventoryChecker\app\src\main\AndroidManifest.xml:2:1-44:12
 	xmlns:android
 		ADDED from D:\ncoding Old_project\InventoryChecker\app\src\main\AndroidManifest.xml:2:11-69
 	package
@@ -36,7 +36,7 @@ ADDED from D:\ncoding Old_project\InventoryChecker\app\src\main\AndroidManifest.
 	android:name
 		ADDED from D:\ncoding Old_project\InventoryChecker\app\src\main\AndroidManifest.xml:12:19-58
 application
-ADDED from D:\ncoding Old_project\InventoryChecker\app\src\main\AndroidManifest.xml:14:5-43:19
+ADDED from D:\ncoding Old_project\InventoryChecker\app\src\main\AndroidManifest.xml:14:5-42:19
 MERGED from [com.android.support:support-v4:23.2.0] D:\ncoding Old_project\InventoryChecker\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:appcompat-v7:23.2.0] D:\ncoding Old_project\InventoryChecker\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.0\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-v4:23.2.0] D:\ncoding Old_project\InventoryChecker\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
@@ -121,14 +121,10 @@ activity#com.example.inventorychecker.activity.StoreManagemant
 ADDED from D:\ncoding Old_project\InventoryChecker\app\src\main\AndroidManifest.xml:40:9-53
 	android:name
 		ADDED from D:\ncoding Old_project\InventoryChecker\app\src\main\AndroidManifest.xml:40:19-50
-activity#com.example.inventorychecker.activity.HistoryActivity
-ADDED from D:\ncoding Old_project\InventoryChecker\app\src\main\AndroidManifest.xml:41:9-53
-	android:name
-		ADDED from D:\ncoding Old_project\InventoryChecker\app\src\main\AndroidManifest.xml:41:19-50
 activity#com.example.inventorychecker.activity.ShowProductActivity
-ADDED from D:\ncoding Old_project\InventoryChecker\app\src\main\AndroidManifest.xml:42:9-57
+ADDED from D:\ncoding Old_project\InventoryChecker\app\src\main\AndroidManifest.xml:41:9-57
 	android:name
-		ADDED from D:\ncoding Old_project\InventoryChecker\app\src\main\AndroidManifest.xml:42:19-54
+		ADDED from D:\ncoding Old_project\InventoryChecker\app\src\main\AndroidManifest.xml:41:19-54
 uses-sdk
 INJECTED from D:\ncoding Old_project\InventoryChecker\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:support-v4:23.2.0] D:\ncoding Old_project\InventoryChecker\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:20:5-43

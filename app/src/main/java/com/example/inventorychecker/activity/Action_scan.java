@@ -24,9 +24,9 @@ public class Action_scan extends AppCompatActivity {
         if(bundle != null){
             boolean flagPlus = bundle.getBoolean("flagPlus");
             if(flagPlus)
-                txtTitle.setText("Add");
+                txtTitle.setText("Add to Store");
             else
-                txtTitle.setText("Minus");
+                txtTitle.setText("Delete to Store");
 
         }
 

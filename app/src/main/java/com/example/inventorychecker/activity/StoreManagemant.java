@@ -25,7 +25,7 @@ import retrofit2.Response;
 
 public class StoreManagemant extends AppCompatActivity  {
 
-    private Spinner sprinnerProduct;
+    private Spinner sprinnerBrandproduct;
     private ImageView imgProduct;
     private SearchView searchView;
 
@@ -56,7 +56,7 @@ public class StoreManagemant extends AppCompatActivity  {
 
                         adapter = new CustomSpinnerAdapter(StoreManagemant.this, 0, product);
 
-                        sprinnerProduct.setAdapter(adapter);
+                        sprinnerBrandproduct.setAdapter(adapter);
                     }
                 } else {
                     // failed
@@ -69,7 +69,7 @@ public class StoreManagemant extends AppCompatActivity  {
             }
         });
 
-        sprinnerProduct.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+        sprinnerBrandproduct.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 Glide.with(getApplicationContext())
@@ -117,7 +117,7 @@ public class StoreManagemant extends AppCompatActivity  {
     }
 
     private void initView() {
-        sprinnerProduct = (Spinner) findViewById(R.id.spinerProduct);
+        sprinnerBrandproduct = (Spinner) findViewById(R.id.spinerBrandproduct);
         imgProduct = (ImageView) findViewById(R.id.imgProduct);
         searchView = (SearchView) findViewById(R.id.searchView);
     }

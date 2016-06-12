@@ -38,7 +38,6 @@
         <activity android:name=".Management" />
         <activity android:name=".Action_scan" />
         <activity android:name=".StoreManagemant" />
-        <activity android:name=".HistoryActivity" />
         <activity android:name=".ShowProductActivity" />
     </application>
 

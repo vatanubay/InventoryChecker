@@ -51,7 +51,7 @@ public class Management extends AppCompatActivity implements View.OnClickListene
 
         if(product != null){
             Glide.with(getApplicationContext())
-                    .load(BaseConfig.BaseUrl+"images/"+product.getProduct().get(0).getImageName()+".jpg")
+                    .load(BaseConfig.profixUrl()+"images/RSL_Srilver.jpg") //ถ้ามีของมูลในฐานข้อมูลค่ิย get
                     .into(imgProduct);
             contentProduct.setText("ID : "+product.getProduct().get(0).getId() + "\n" +
                                     "Brand : "+product.getProduct().get(0).getBrand() + "\n" +
@@ -115,7 +115,7 @@ public class Management extends AppCompatActivity implements View.OnClickListene
                 }else{
                     dialog.show();
                     UpdateProductService service = RestServiceManager.create(UpdateProductService.class);
-                    service.updateProduct(Integer.parseInt(product.getProduct().get(0).getId()), sum+"").enqueue(this);
+                    service.updateProduct(Integer.parseInt(product.getProduct().get(0).getId()), sum + "").enqueue(this);
                 }
             }
 
