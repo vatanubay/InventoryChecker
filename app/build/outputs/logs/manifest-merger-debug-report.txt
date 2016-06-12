@@ -126,7 +126,7 @@ ADDED from D:\ncoding Old_project\InventoryChecker\app\src\main\AndroidManifest.
 	android:name
 		ADDED from D:\ncoding Old_project\InventoryChecker\app\src\main\AndroidManifest.xml:41:19-50
 activity#com.example.inventorychecker.activity.ShowProductActivity
-ADDED from D:\ncoding Old_project\InventoryChecker\app\src\main\AndroidManifest.xml:42:9-66
+ADDED from D:\ncoding Old_project\InventoryChecker\app\src\main\AndroidManifest.xml:42:9-57
 	android:name
 		ADDED from D:\ncoding Old_project\InventoryChecker\app\src\main\AndroidManifest.xml:42:19-54
 uses-sdk

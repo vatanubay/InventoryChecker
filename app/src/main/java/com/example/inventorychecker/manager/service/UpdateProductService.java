@@ -14,5 +14,5 @@ public interface UpdateProductService {
 
     @POST("product_update.php")
     @FormUrlEncoded
-    Call<StatusDao> updateProduct(@Field("pro_id") int proId, @Field("pro_amount") String amount);
+    Call<StatusDao> updateProduct(@Field("Pro_id") int proId, @Field("Pro_amount") String amount);
 }

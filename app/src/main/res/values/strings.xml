@@ -23,4 +23,5 @@
         <item>@color/holo_purple_dark</item>
         <item>@color/holo_red_dark</item>
     </string-array>
+    <string name="title_activity_product">ProductActivity</string>
 </resources>
