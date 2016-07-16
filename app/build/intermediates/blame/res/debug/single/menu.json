@@ -8,6 +8,10 @@
         "source": "D:\\ncoding Old_project\\InventoryChecker\\app\\src\\main\\res\\menu\\home_admin.xml"
     },
     {
+        "merged": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\res\\merged\\debug\\menu\\store_menu.xml",
+        "source": "D:\\ncoding Old_project\\InventoryChecker\\app\\src\\main\\res\\menu\\store_menu.xml"
+    },
+    {
         "merged": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\res\\merged\\debug\\menu\\register.xml",
         "source": "D:\\ncoding Old_project\\InventoryChecker\\app\\src\\main\\res\\menu\\register.xml"
     },

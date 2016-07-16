@@ -12,24 +12,24 @@
         "source": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\layout\\design_navigation_item_subheader.xml"
     },
     {
-        "merged": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
-        "source": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_media_action.xml"
-    },
-    {
         "merged": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\res\\merged\\debug\\layout\\capture.xml",
         "source": "D:\\ncoding Old_project\\InventoryChecker\\app\\src\\main\\res\\layout\\capture.xml"
     },
     {
-        "merged": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home.xml",
-        "source": "D:\\ncoding Old_project\\InventoryChecker\\app\\src\\main\\res\\layout\\activity_home.xml"
+        "merged": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
     {
         "merged": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_action_scan.xml",
         "source": "D:\\ncoding Old_project\\InventoryChecker\\app\\src\\main\\res\\layout\\activity_action_scan.xml"
     },
     {
-        "merged": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
-        "source": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+        "merged": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home.xml",
+        "source": "D:\\ncoding Old_project\\InventoryChecker\\app\\src\\main\\res\\layout\\activity_home.xml"
     },
     {
         "merged": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
@@ -44,24 +44,24 @@
         "source": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\layout\\design_layout_snackbar_include.xml"
     },
     {
-        "merged": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_list_menu_item_layout.xml"
-    },
-    {
         "merged": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
         "source": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_list_menu_item_layout.xml"
     },
     {
         "merged": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
         "source": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
-        "merged": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
-        "source": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\layout\\design_layout_tab_text.xml"
-    },
-    {
         "merged": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
         "source": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
+        "source": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\layout\\design_layout_tab_text.xml"
     },
     {
         "merged": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
@@ -128,12 +128,12 @@
         "source": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_expanded_menu_layout.xml"
     },
     {
-        "merged": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_menu_layout.xml"
-    },
-    {
         "merged": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
         "source": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_template_lines.xml"
+    },
+    {
+        "merged": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
         "merged": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
@@ -160,20 +160,24 @@
         "source": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_mode_bar.xml"
     },
     {
-        "merged": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
-        "source": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_template_media.xml"
-    },
-    {
         "merged": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
         "source": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
     {
-        "merged": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
-        "source": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\layout\\design_layout_tab_icon.xml"
+        "merged": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_item_product.xml",
+        "source": "D:\\ncoding Old_project\\InventoryChecker\\app\\src\\main\\res\\layout\\view_item_product.xml"
+    },
+    {
+        "merged": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_template_media.xml"
     },
     {
         "merged": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
         "source": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\layout\\design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\layout\\design_layout_tab_icon.xml"
     },
     {
         "merged": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
@@ -196,12 +200,12 @@
         "source": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
-        "merged": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
-        "source": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
-    },
-    {
         "merged": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_logo.xml",
         "source": "D:\\ncoding Old_project\\InventoryChecker\\app\\src\\main\\res\\layout\\activity_logo.xml"
+    },
+    {
+        "merged": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
         "merged": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",

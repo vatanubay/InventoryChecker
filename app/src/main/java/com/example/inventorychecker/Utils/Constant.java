@@ -12,4 +12,5 @@ public class Constant {
     public static String ScannerResultText = "resultText";
     public static String ScannerResultKey = "resultKey";
     public static final String FileNameDataBase = "Inventory_Checker.db";
+    public static final String PATH_URL_IMAGE = "http://forteamproject.esy.es/meen/inventory/images/";
 }

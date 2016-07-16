@@ -8,13 +8,13 @@ package me.dm7.barcodescanner.core;
 
 public final class R {
 	public static final class color {
-		public static final int viewfinder_border = 0x7f0d0052;
-		public static final int viewfinder_laser = 0x7f0d0053;
-		public static final int viewfinder_mask = 0x7f0d0054;
+		public static final int viewfinder_border = 0x7f0d0056;
+		public static final int viewfinder_laser = 0x7f0d0057;
+		public static final int viewfinder_mask = 0x7f0d0058;
 	}
 	public static final class id {
-		public static final int camera_preview = 0x7f0e0096;
-		public static final int view_finder_view = 0x7f0e0097;
+		public static final int camera_preview = 0x7f0e0097;
+		public static final int view_finder_view = 0x7f0e0098;
 	}
 	public static final class integer {
 		public static final int viewfinder_border_length = 0x7f0a0000;

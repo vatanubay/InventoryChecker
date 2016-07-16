@@ -1,6 +1,7 @@
-package com.example.inventorychecker.module;
+package com.example.inventorychecker.module.store;
 
 import android.content.Context;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -17,12 +18,12 @@ import java.util.List;
 /**
  * Created by HP on 6/12/2016.
  */
-public class CustomSpinnerAdapter extends ArrayAdapter<ProductModel>{
+public class CustomSpinnerBrandAdapter extends ArrayAdapter<ProductModel>{
 
     private List<ProductModel> items;
     private Context context;
 
-    public CustomSpinnerAdapter(Context context, int resource, List<ProductModel> items) {
+    public CustomSpinnerBrandAdapter(Context context, int resource, List<ProductModel> items) {
         super(context, resource, items);
         this.context = context;
         this.items = items;
@@ -63,7 +64,7 @@ public class CustomSpinnerAdapter extends ArrayAdapter<ProductModel>{
             holder = (ViewHolder) convertView.getTag();
         }
 
-        holder.txtTitle.setText(items.get(position).getName());
+        holder.txtTitle.setText(items.get(position).getBrand());
 
         return convertView;
     }

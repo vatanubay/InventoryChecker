@@ -24,20 +24,20 @@
         "source": "D:\\ncoding Old_project\\InventoryChecker\\app\\src\\main\\res\\drawable-xhdpi\\gosen_gf_90_570bath.png"
     },
     {
-        "merged": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_product_press1.png",
-        "source": "D:\\ncoding Old_project\\InventoryChecker\\app\\src\\main\\res\\drawable-xhdpi\\ic_product_press1.png"
-    },
-    {
         "merged": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
         "source": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-xhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
-        "merged": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
-        "source": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-xhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
+        "merged": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_product_press1.png",
+        "source": "D:\\ncoding Old_project\\InventoryChecker\\app\\src\\main\\res\\drawable-xhdpi\\ic_product_press1.png"
     },
     {
         "merged": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
         "source": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-xhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
     },
     {
         "merged": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
@@ -236,11 +236,11 @@
         "source": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-xhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\gosen_gn_505_nylon_480_bath.png",
-        "source": "D:\\ncoding Old_project\\InventoryChecker\\app\\src\\main\\res\\drawable-xhdpi\\gosen_gn_505_nylon_480_bath.png"
-    },
-    {
         "merged": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png",
         "source": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "D:\\ncoding Old_project\\InventoryChecker\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\gosen_gn_505_nylon_480_bath.png",
+        "source": "D:\\ncoding Old_project\\InventoryChecker\\app\\src\\main\\res\\drawable-xhdpi\\gosen_gn_505_nylon_480_bath.png"
     }
 ]
